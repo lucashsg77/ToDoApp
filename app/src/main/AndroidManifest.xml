@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apptodoapp">
+
+    <application
+        android:name=".datasource.TaskApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_today"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_today"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppToDoApp">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.AddTaskActivity"/>
+        <receiver
+            android:name=".notifications.receiver.NotificationReceiver"
+            android:enabled="true" />
+    </application>
+
+</manifest>

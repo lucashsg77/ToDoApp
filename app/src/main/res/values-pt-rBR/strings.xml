@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista de Tarefas</string>
+    <string name="task">Tarefas</string>
+    <string name="createTask">Nova tarefa</string>
+    <string name="titleHint">Título*</string>
+    <string name="descriptionHint">Descrição</string>
+    <string name="dateHint">Data*</string>
+    <string name="hourHint">Horário*</string>
+    <string name="cancelBtn">Cancelar</string>
+    <string name="newTaskContDescri">Nova tarefa</string>
+    <string name="editTitle">Editar</string>
+    <string name="deleteTitle">Excluir</string>
+    <string name="saveChanges">Savar modificações</string>
+    <string name="emptySpaceTV">Oops! Você não possui nenhuma tarefa hoje</string>
+    <string name="previousMonth">Mês anterior</string>
+    <string name="nextMonth">Mês posterior</string>
+    <string name="toastFillBlanks">Preencha os campos obrigatórios</string>
+    <string name="toastSchedule">Uma tarefa já está agendada para o mesmo dia e horário</string>
+    <string name="addBtnText">Salvar modificações</string>
+    <string name="toolbarTitle">Editar tarefa</string>
+    <string name="tostDate">Selecione uma data a partir de hoje</string>
+    <string name="taskNotSaved">Tarefa não foi salva</string>
+    <string name="exceptionError">Erro inesperado!</string>
+    <string name="taskCreated">Tarefa criada com sucesso</string>
+    <string name="taskUpdated">Tarefa atualizada com sucesso</string>
+</resources>

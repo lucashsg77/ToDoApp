@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">To-Do</string>
+    <string name="task">Tasks</string>
+    <string name="createTask">Create Task</string>
+    <string name="titleHint">Title*</string>
+    <string name="descriptionHint">Description</string>
+    <string name="dateHint">Date*</string>
+    <string name="hourHint">Hour*</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="newTaskContDescri">New Task</string>
+    <string name="editTitle">Edit</string>
+    <string name="deleteTitle">Delete</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="emptySpaceTV">Whoops! You do not have\n any tasks for today</string>
+    <string name="previousMonth">Previous month</string>
+    <string name="nextMonth">Next Month</string>
+    <string name="toastFillBlanks">Fill in the mandatory fields</string>
+    <string name="toastSchedule">You already have a task at the same day and time</string>
+    <string name="addBtnText">Save modifications</string>
+    <string name="toolbarTitle">Edit task</string>
+    <string name="taskNotSaved">Task not saved</string>
+    <string name="tostDate">Select a date starting from today</string>
+    <string name="exceptionError">Unexpected error!</string>
+    <string name="taskCreated">Task created with success</string>
+    <string name="taskUpdated">Task updated with success</string>
+</resources>
