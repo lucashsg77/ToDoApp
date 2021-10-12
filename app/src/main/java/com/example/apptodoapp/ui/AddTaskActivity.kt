@@ -43,7 +43,7 @@ class AddTaskActivity: AppCompatActivity() {
             val c = Calendar.getInstance()
             val date = DatePickerDialog(this, { _, year, monthOfYear, dayOfMonth ->
                 val day = if(dayOfMonth in 1..9) "0${dayOfMonth}" else dayOfMonth
-                val month = if(monthOfYear in 1..9) "0${monthOfYear + 1}" else monthOfYear
+                val month = if(monthOfYear in 1..8) "0${monthOfYear + 1}" else monthOfYear
                 dateTi.text = "$day/$month/$year".format()
             }, c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH))
             date.datePicker.minDate = Calendar.getInstance(Locale.getDefault()).timeInMillis
